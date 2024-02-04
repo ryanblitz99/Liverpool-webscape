@@ -41,7 +41,7 @@ We will be webscraping from the website https://fbref.com/en/. We will be lookin
 
 We will be joining these 2 tables on the 'Venue" which indicates if Liverpool were the Home or Away team, as well as the match date
 
-####webscraping logic
+#### webscraping logic
 The first step would be to parse the main table containing all the premier league teams' final standings
 ```
 base_url = 'https://fbref.com/en/comps/9/2021-2022/2021-2022-Premier-League-Stats'
@@ -367,7 +367,7 @@ df_match_stats.to_csv(f"{outdir}/{outname}")
 
 ```
 
-####Resulting dataframe
+#### Resulting dataframe
 Below are the following columns and their defintions:
 
 Goals: Total goals scored
