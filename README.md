@@ -370,61 +370,45 @@ df_match_stats.to_csv(f"{outdir}/{outname}")
 #### Resulting dataframe
 Below are the following columns and their defintions:
 
-Goals: Total goals scored
-Assists: Total assists recorded
-PK: Penalty kicks awarded	
-PKatt: Penalty kick attempts
-Sh: Total shots made	
-SoT: Total shots on target
-CrdY: Total number of yellow cards	
-CrdR: Total number of red cards
-Touches: Total number of touches on the ball	
-Tkl: Total number of tackles made
-Int: Total numbe rof interceptions recorded
-Blocks: Total number of shots blocked
-xG_x: Total number of expected goals	
-npxG: Total number of expected non penalty goals
-xAG: Total number of expected assists
-SCA: Total number of shot creating actions
-GCA: Total number of goal creating actions
-Cmp: Total number of passes completed
-Cmp_att: Total number of pass attempts
-Cmp%: Pass completion percentage
-PrgP: Total number of progressive passes	
-Carries: Total number of ball carries
-PrgC: Total number of progressive carries
-Tackle_att: Total number of tackle attempts
-Tackle_succ: Total number of successful tackles
-Venue: Indicator if Liverpool were the home or away side
-Match_date: match date	
-Time_x: Kick-off time	
-Comp_x: Competiton type(eg. premier league)
-Round_x: Round of tournament
-Day_x: Day of match
-Result_x: W/L/D
-GF_x: goals scored	
-GA_x: goals conceeded
-Opponent_x: opponent name	
-xG_y	
-xGA_x	
-Poss_x: Possession %
-Attendance_x: Total spectator attendance	
-Captain_x: Which player captained liverpool in that match
-Formation_x: formation used at the start of the match
-Referee_x: Referee name
-Notes_x	
-Date_y	
-Time_y	
-Comp_y	
-Round_y	
-Day_y	
-Result_y	
-Opponent_y	
-Poss_y 
-Attendance_y	
-Captain_y	
-Formation_y	
-Referee_y	
-Notes_y
+- Goals: Total goals scored
+- Assists: Total assists recorded
+- PK: Penalty kicks awarded	
+- PKatt: Penalty kick attempts
+- Sh: Total shots made	
+- SoT: Total shots on target
+- CrdY: Total number of yellow cards	
+- CrdR: Total number of red cards
+- Touches: Total number of touches on the ball	
+- Tkl: Total number of tackles made
+- Int: Total numbe rof interceptions recorded
+- Blocks: Total number of shots blocked
+- xG_x: Total number of expected goals	
+- npxG: Total number of expected non penalty goals
+- xAG: Total number of expected assists
+- SCA: Total number of shot creating actions
+- GCA: Total number of goal creating actions
+- Cmp: Total number of passes completed
+- Cmp_att: Total number of pass attempts
+- Cmp%: Pass completion percentage
+- PrgP: Total number of progressive passes	
+- Carries: Total number of ball carries
+- PrgC: Total number of progressive carries
+- Tackle_att: Total number of tackle attempts
+- Tackle_succ: Total number of successful tackles
+- Venue: Indicator if Liverpool were the home or away side
+- Match_date: match date	
+- Time_x: Kick-off time	
+- Comp_x: Competiton type(eg. premier league)
+- Round_x: Round of tournament
+- Day_x: Day of match
+- Result_x: W/L/D
+- GF_x: goals scored	
+- GA_x: goals conceeded
+- Opponent_x: opponent name	
+- Poss_x: Possession %
+- Attendance_x: Total spectator attendance	
+- Captain_x: Which player captained liverpool in that match
+- Formation_x: formation used at the start of the match
+- Referee_x: Referee name
 ![image](https://github.com/ryanblitz99/Liverpool-webscape/assets/131364279/c21de831-3c36-4d7a-8280-669f4e26343d)
 
