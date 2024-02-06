@@ -6,9 +6,9 @@
 
 - [Data](#Data)
 
-- [webscraping logic](#webscraping logic)
+- [webscraping logic](#webscraping )
 
-- [Resulting dataframe](#Resulting dataframe)
+- [Resulting dataframe](#dataframe)
 
 #### Introduction
 
@@ -367,7 +367,7 @@ df_match_stats.to_csv(f"{outdir}/{outname}")
 
 ```
 
-#### Resulting dataframe
+#### dataframe
 Below are the following columns and their defintions:
 
 - Goals: Total goals scored
